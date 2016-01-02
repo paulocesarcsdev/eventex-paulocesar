@@ -11,23 +11,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="{% static '' %}""{% static 'img/favicon.ico' %}">
+        <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="{% static '' %}""../static/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{% static '' %}""../static/css/basalstyle/style.min.css">
-        <link rel="stylesheet" href="{% static '' %}""../static/css/main.css">
+        <link rel="stylesheet" href ="{% static 'css/font-awesome.min.css'%}">
+        <link rel="stylesheet" href ="{% static 'css/basalstyle/style.min.css'%}">
+        <link rel="stylesheet" href ="{% static 'css/main.css'%}">
 
-        <link href="{% static '' %}"'http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
 
-        <script src="{% static '' %}""https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
 
-        <script src="{% static '' %}""../static/js/jquery-1.11.0.min.js"></script>
-        <script src="{% static '' %}""../static/js/jquery.stellar.min.js"></script>
-        <script src="{% static '' %}""../static/js/smooth-scroll.js"></script>
-        <script src="{% static '' %}""../static/js/retina-1.1.0.min.js"></script>
-        <script src="{% static '' %}""../static/js/main.js"></script>
+        <script src ="{% static 'js/jquery-1.11.0.min.js'%}"></script>
+        <script src ="{% static 'js/jquery.stellar.min.js'%}"></script>
+        <script src ="{% static 'js/smooth-scroll.js'%}"></script>
+        <script src ="{% static 'js/retina-1.1.0.min.js'%}"></script>
+        <script src ="{% static 'js/main.js'%}"></script>
 
 
 	</head>
@@ -38,17 +38,18 @@
             <header class="header header-inline min-h-3 row desktop-12 container" role="banner">
 
                 <div class="site-logo">
-                    <h1><a href="{% static '' %}""/" rel="home">Eventex</a></h1>
+                    <h1><a href="/" rel="home">Eventex</a></h1>
                     <p class="site-description screen-reader-only">O maior encontro hacker do mundo!</p>
                 </div>
 
-                <nav class="nav-inline" role="navigation">
-                    <a href="{% static '' %}""javascript:void(0);" class="nav-mobile"><i class="fa fa-bars"></i></a>
+
+               <nav class="nav-inline" role="navigation">
+                    <a href="javascript:void(0);" class="nav-mobile"><i class="fa fa-bars"></i></a>
                     <ul>
-                        <li><a data-scroll href="{% static '' %}""#overview">Conferência</a></li>
-                        <li><a data-scroll href="{% static '' %}""#sponsors">Patrocinadores</a></li>
-                        <li><a data-scroll href="{% static '' %}""#register">Inscrição</a></li>
-                        <li><a data-scroll href="{% static '' %}""#venue">Local</a></li>
+                        <li><a data-scroll href="#overview">Conferência</a></li>
+                        <li><a data-scroll href="#sponsors">Patrocinadores</a></li>
+                        <li><a data-scroll href="#register">Inscrição</a></li>
+                        <li><a data-scroll href="#venue">Local</a></li>
                     </ul>
                 </nav>
 
@@ -69,7 +70,7 @@
             	<i class="fa fa-5x fa-globe"></i>
             	<h2>A Conferência</h2>
                 <p class="lead">A maior reunião de hackers do mundo.<br>Reunindo profissionais e entusiastas dos quatro <br>cantos do planeta, o <em>Eventex</em> é o lugar onde você precisa estar.</p>
-            	<p><a class="btn-basic btn-blue" data-scroll href="{% static '' %}""#register">Garanta a sua vaga!</a></p>
+            	<p><a class="btn-basic btn-blue" data-scroll href ="{% static '#register'%}">Garanta a sua vaga!</a></p>
             </div>
         </section>
 
@@ -81,26 +82,25 @@
 
                 <h3>Gold</h3>
                 <div class="sponsor-slider min-h-6">
-                    <img class="img-responsive" src="{% static '' %}""../static/img/sponsor-gold-01.png" alt="logo">
-                    <img class="img-responsive" src="{% static '' %}""../static/img/sponsor-gold-02.png" alt="logo">
-                    <img class="img-responsive" src="{% static '' %}""../static/img/sponsor-gold-03.png" alt="logo">
+                    <img class="img-responsive" src ="{% static 'img/sponsor-gold-01.png'%}" alt="logo">
+                    <img class="img-responsive" src ="{% static 'img/sponsor-gold-02.png'%}" alt="logo">
+                    <img class="img-responsive" src ="{% static 'img/sponsor-gold-03.png'%}" alt="logo">
 
                 </div>
 
                 <h3>Silver</h3>
                 <div class="sponsor-slider min-h-6 margin-bottom-1">
-                	<img class="img-responsive" src="{% static '' %}""../static/img/sponsor-silver-01.png" alt="logo">
-                    <img class="img-responsive" src="{% static '' %}""../static/img/sponsor-silver-02.png" alt="logo">
-                    <img class="img-responsive" src="{% static '' %}""../static/img/sponsor-silver-03.png" alt="logo">
-                    <img class="img-responsive" src="{% static '' %}""../static/img/sponsor-silver-04.png" alt="logo">
-                    <img class="img-responsive" src="{% static '' %}""../static/img/sponsor-silver-05.png" alt="logo">
-                    <img class="img-responsive" src="{% static '' %}""../static/img/sponsor-silver-06.png" alt="logo">
+                	<img class="img-responsive" src ="{% static 'img/sponsor-silver-01.png'%}" alt="logo">
+                    <img class="img-responsive" src ="{% static 'img/sponsor-silver-02.png'%}" alt="logo">
+                    <img class="img-responsive" src ="{% static 'img/sponsor-silver-03.png'%}" alt="logo">
+                    <img class="img-responsive" src ="{% static 'img/sponsor-silver-04.png'%}" alt="logo">
+                    <img class="img-responsive" src ="{% static 'img/sponsor-silver-05.png'%}" alt="logo">
+                    <img class="img-responsive" src ="{% static 'img/sponsor-silver-06.png'%}" alt="logo">
                 </div>
 
                 <h3>Seja um patrocinador</h3>
                 <p>Interessado? Descubra as oportunidades e benefícios.</p>
-                <a class="btn-basic btn-blue" href="{% static '' %}""mailto:contato@eventex.com.br?Subject=Patrocínio">informe-se</a>
-
+                <a class="btn-basic btn-blue" href="mailto:contato@eventex.com.br?Subject=Patrocínio">informe-se</a>
             </div>
         </section>
 
@@ -111,7 +111,7 @@
                 	<h2>Inscrição</h2>
                 	<h3>Inscrições em breve!</h3>
                     <p>Fique à vontade para entrar em contato com a gente.<br>Teremos prazer em responder quaisquer dúvidas.</p>
-                	<a class="btn-basic btn-blue" href="{% static '' %}""mailto:contato@eventex.com.br">contato@eventex.com.br</a>
+                	<a class="btn-basic btn-blue" href="mailto:contato@eventex.com.br">contato@eventex.com.br</a>
                 </div>
             </div>
         </section>

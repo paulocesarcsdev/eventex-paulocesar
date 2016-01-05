@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+.env
 .wttd
 *.sqlite3
 *pyc

@@ -1,5 +1,8 @@
 # Eventex
 
+[![Code Health](https://landscape.io/github/paulocesarcsdev/eventex-paulocesar/master/landscape.svg?style=flat)](https://landscape.io/github/paulocesarcsdev/eventex-paulocesar/master)
+
+
 Sistema de Eventos encomendado pela Morena.
 
 ## Como desenvolver?

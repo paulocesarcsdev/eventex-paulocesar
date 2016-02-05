@@ -1,4 +1,4 @@
-sudo: treu
+sudo: true
 
 language: python
 python:

@@ -2,6 +2,7 @@
 
 [![Code Health](https://landscape.io/github/paulocesarcsdev/eventex-paulocesar/master/landscape.svg?style=flat)](https://landscape.io/github/paulocesarcsdev/eventex-paulocesar/master)
 
+[![Build Status](https://travis-ci.org/paulocesarcsdev/eventex-paulocesar.svg?branch=master)](https://travis-ci.org/paulocesarcsdev/eventex-paulocesar)
 
 Sistema de Eventos encomendado pela Morena.
 

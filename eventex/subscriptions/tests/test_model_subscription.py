@@ -1,3 +1,4 @@
+from datetime import datetime
 from django.test import TestCase
 from eventex.subscriptions.models import Subscription
 
@@ -14,3 +15,7 @@ class SubscriptionModelTest(TestCase):
 
     def test_create(self):
         self.assertTrue(Subscription.objects.exists())
+
+    def test(self):
+        """Subscription must have auto created_at attr."""
+        self.assertIsInstance(self.obj.created_at, datetime)

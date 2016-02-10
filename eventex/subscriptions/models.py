@@ -9,4 +9,12 @@ class Subscription(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
 
+    class Meta:
+        verbose_name_plural = 'inscrições'
+        verbose_name = 'inscrição'
+
+    def __str__(self):
+        return self.name
+
+
 

@@ -1,5 +1,3 @@
-import unittest
-
 from django.core import mail
 from django.test import TestCase
 from eventex.subscriptions.forms import SubscriptionForm

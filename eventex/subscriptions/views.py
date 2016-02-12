@@ -1,5 +1,4 @@
 from django.conf import settings
-from django.contrib import messages
 from django.core import mail
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
@@ -38,8 +37,8 @@ def new(request):
                     {'form': SubscriptionForm()})
 
 def detail(request):
-    from django.http import HttpResponse
-    return HttpResponse()
+    return render(request, 'subscriptions/subscription_detail.html',
+                  {'subscription': Subscription()})
 
 
 def _send_mail(subject, from_, to, template_name, context):

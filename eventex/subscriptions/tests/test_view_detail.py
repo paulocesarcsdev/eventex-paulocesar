@@ -18,7 +18,9 @@ class SubscriptionDetailGet(TestCase):
         self.assertIsInstance(subscription, Subscription)
 
     def test_html(self):
-        self.assertContains(self.resp, 'Paulo César')
-        self.assertContains(self.resp, '12345678901')
-        self.assertContains(self.resp, 'paulocesarcs.info@gmail.com')
-        self.assertContains(self.resp, '62-94130086')
+        contents = ('Paulo César', '12345678901',
+                    'paulocesarcs.info@gmail.com', '62-94130086')
+
+        with self.subTest():
+            for expected in contents:
+                self.assertContains(self.resp, expected)
